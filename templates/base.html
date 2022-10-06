@@ -23,7 +23,7 @@
         </header>
 
         {% if user.is_authenticated %}
-        <p>Hi {{ user.username }}!</p>
+        <p>Greetings, {{ user.username }}!</p>
         <p><a href="{% url 'logout' %}">Logout</a></p>
 
         {% else %}
