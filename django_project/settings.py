@@ -120,3 +120,4 @@ USE_TZ = True
 
 STATIC_URL = "/static/"
 STATICFILES_DIRS = [BASE_DIR / "static"]  # new
+LOGIN_REDIRECT_URL = "home"  # new
